@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/amber"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:context="com.sujay.play.cricketquiz.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="Q1.How many players are there in a team ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/ques_one_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <RadioButton
+                android:id="@+id/players_number_true_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="questionOne"
+                android:text="11" />
+
+            <RadioButton
+                android:id="@+id/players_number_false_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="questionOne"
+                android:text="10" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="Q2.How many batsman will be there in pitch at any given point of time ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/ques_two_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <RadioButton
+                android:id="@+id/batsman_false_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="questionTwo"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/batsman_true_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="questionTwo"
+                android:text="2" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="Q3.How many overs a bowler can bowl in ODI ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/ques_three_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <RadioButton
+                android:id="@+id/overs_true_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="questionThree"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/overs_false_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="questionThree"
+                android:text="4" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="Q4.When was first world cup held ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/ques_four_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <RadioButton
+                android:id="@+id/world_cup_false_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="questionFour"
+                android:text="1979" />
+
+            <RadioButton
+                android:id="@+id/world_cup_true_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="questionFour"
+                android:text="1975" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="Q5.Under whose captaincy India won world cup in 1983 ?"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/captain_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="Q6.Length of pitch in yards ?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/ques_six_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <RadioButton
+                android:id="@+id/pitch_yards_false_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="questionSix"
+                android:text="20" />
+
+            <RadioButton
+                android:id="@+id/pitch_yards_true_radio_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="questionSix"
+                android:text="22" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="Q7.Select players who took hat-trick in debut match ODI"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/true_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Wanidu Hasaranga"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/false_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Faheem Ashraf"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/true1_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Taijul Islam"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/true2_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Kagiso Rabada"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/score_answer_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="8dp"
+            android:text="Score : 0"
+            android:textColor="@color/green"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/score_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:onClick="knowYourScore"
+                android:text="Know Your Score" />
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:onClick="reset"
+                android:text="reset" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
