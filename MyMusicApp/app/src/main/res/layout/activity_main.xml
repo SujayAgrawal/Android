@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sujay.play.mymusicapp.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/blueGrey"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/latest_songs"
+                style="@style/categoryStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/category_latestSongs"
+                android:text="@string/latest_songs" />
+
+            <TextView
+                android:id="@+id/latest_albums"
+                style="@style/categoryStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/category_latestAlbums"
+                android:text="@string/latest_albums" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/artists"
+                style="@style/categoryStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/category_artists"
+                android:text="@string/artists" />
+
+
+            <TextView
+                android:id="@+id/random"
+                style="@style/categoryStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/category_random"
+                android:text="@string/random" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/now_playing"
+            style="@style/categoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_nowPlaying"
+            android:text="@string/now_playing" />
+        <TextView
+            android:id="@+id/payment"
+            style="@style/categoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_payment"
+            android:text="@string/payment" />
+    </LinearLayout>
+
+
+</ScrollView>

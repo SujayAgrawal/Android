@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2F1D1A</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blueGrey">#CFD8DC</color>
+
+    <color name="category_latestSongs">#FD8E09</color>
+    <color name="category_latestAlbums">#379237</color>
+    <color name="category_artists">#8800A0</color>
+    <color name="category_random">#16AFCA</color>
+    <color name="category_nowPlaying">#000000</color>
+    <color name="category_payment">#1A237E</color>
+</resources>
