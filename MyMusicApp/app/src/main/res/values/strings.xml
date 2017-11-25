@@ -6,13 +6,20 @@
     <string name="now_playing">Now Playing</string>
     <string name="artists">Artists</string>
     <string name="payment">Purchase App</string>
-    <string name="artists_text">This is artists activity, here name of artists will be displayed in future ! :)</string>
+    <string name="artists_text">This is artists activity, here list of artists will be displayed in future ! :)</string>
     <string name="latest_albums_text">This is latest albums activity, here we will show the latest albums ! :)</string>
-    <string name="latest_songs_text">This is the latest songs activity, here we will show the latest songs ! :)</string>
+    <string name="latest_songs_text">This is the latest songs activity, here we will show the list of latest songs ! :)</string>
     <string name="random_text">This is random activity, this activity will show any song randomly ! :)</string>
     <string name="now_playing_text">This is now playing activity,
         this activity will be responsible for showing the song that is currently running ! :)</string>
     <string name="payment_activity_text">Here Google Payment API will be used, we can find more about this API
         <a href="https://developers.google.com/payments/setup"> here</a>
     </string>
+    <string name="artists_label">Artists</string>
+    <string name="latest_albums_label">Latest Albums</string>
+    <string name="latest_songs_label">Latest Songs</string>
+    <string name="main_activity_label">Home</string>
+    <string name="now_playing_label">Now Playing</string>
+    <string name="payment_label">Payment Gateway</string>
+    <string name="random_label">Random Songs</string>
 </resources>

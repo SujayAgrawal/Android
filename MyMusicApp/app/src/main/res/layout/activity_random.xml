@@ -1,20 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.sujay.play.mymusicapp.RandomActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        style="@style/intentsStyle"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/random_text" />
+        android:orientation="vertical"
+        tools:context="com.sujay.play.mymusicapp.RandomActivity">
 
-    <Button
-        android:id="@+id/now_playing_random_activity_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/now_playing" />
-</LinearLayout>
+        <TextView
+            style="@style/LabelStyle"
+            android:labelFor="@id/random_text_view"
+            android:text="@string/random_label" />
+
+        <TextView
+            android:id="@+id/random_text_view"
+            style="@style/intentsStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/random_text" />
+
+        <Button
+            android:id="@+id/random_songs_to_home_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_label" />
+
+        <Button
+            android:id="@+id/random_songs_to_artists_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/artists" />
+
+        <Button
+            android:id="@+id/random_songs_to_latest_songs_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/latest_songs" />
+
+        <Button
+            android:id="@+id/random_songs_to_latest_albums_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/latest_albums" />
+
+        <Button
+            android:id="@+id/random_songs_to_purchase_app_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment" />
+
+        <Button
+            android:id="@+id/random_songs_to_now_playing_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/now_playing" />
+    </LinearLayout>
+</ScrollView>

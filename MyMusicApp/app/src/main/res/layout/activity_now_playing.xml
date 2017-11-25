@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.sujay.play.mymusicapp.NowPlayingActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        style="@style/intentsStyle"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/now_playing_text" />
-</LinearLayout>
+        android:orientation="vertical"
+        tools:context="com.sujay.play.mymusicapp.NowPlayingActivity">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:labelFor="@id/now_playing_text_view"
+            android:text="@string/now_playing_label" />
+
+        <TextView
+            android:id="@+id/now_playing_text_view"
+            style="@style/intentsStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/now_playing_text" />
+
+        <Button
+            android:id="@+id/now_playing_to_home_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_label" />
+
+        <Button
+            android:id="@+id/now_playing_to_artists_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/artists" />
+
+        <Button
+            android:id="@+id/now_playing_to_latest_songs_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/latest_songs" />
+
+        <Button
+            android:id="@+id/now_playing_to_latest_albums_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/latest_albums" />
+
+        <Button
+            android:id="@+id/now_playing_to_random_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/random" />
+
+        <Button
+            android:id="@+id/now_playing_to_purchase_app_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/payment" />
+    </LinearLayout>
+</ScrollView>

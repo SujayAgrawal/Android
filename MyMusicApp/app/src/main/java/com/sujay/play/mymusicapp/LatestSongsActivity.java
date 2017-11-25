@@ -12,8 +12,8 @@ public class LatestSongsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_latest_songs);
-        Button button = findViewById(R.id.now_playing_latest_songs_button);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button nowPlaying = findViewById(R.id.latest_songs_to_now_playing_button);
+        nowPlaying.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openNowPlayingActivity(view);

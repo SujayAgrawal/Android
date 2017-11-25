@@ -16,23 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".LatestSongsActivity"
-            android:label="@string/latest_songs" />
-        <activity
-            android:name=".LatestAlbumsActivity"
-            android:label="@string/latest_albums" />
-        <activity
-            android:name=".ArtistsActivity"
-            android:label="@string/artists" />
-        <activity
-            android:name=".RandomActivity"
-            android:label="@string/random" />
-        <activity
-            android:name=".NowPlayingActivity"
-            android:label="@string/now_playing" />
-        <activity android:name=".PaymentActivity"
-            android:label="@string/payment"></activity>
+        <activity android:name=".LatestSongsActivity" />
+        <activity android:name=".LatestAlbumsActivity" />
+        <activity android:name=".ArtistsActivity" />
+        <activity android:name=".RandomActivity" />
+        <activity android:name=".NowPlayingActivity" />
+        <activity android:name=".PaymentActivity"></activity>
     </application>
 
 </manifest>

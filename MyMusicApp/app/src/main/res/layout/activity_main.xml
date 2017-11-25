@@ -13,6 +13,10 @@
         android:background="@color/blueGrey"
         android:orientation="vertical">
 
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/main_activity_label" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -69,6 +73,7 @@
             android:layout_height="wrap_content"
             android:background="@color/category_nowPlaying"
             android:text="@string/now_playing" />
+
         <TextView
             android:id="@+id/payment"
             style="@style/categoryStyle"

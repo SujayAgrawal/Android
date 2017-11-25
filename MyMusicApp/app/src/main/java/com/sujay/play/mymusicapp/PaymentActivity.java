@@ -14,10 +14,10 @@ public class PaymentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
-        TextView payment = findViewById(R.id.payment_api_link);
+        TextView payment = findViewById(R.id.payment_text_view);
         payment.setMovementMethod(LinkMovementMethod.getInstance());
-        Button button = findViewById(R.id.now_playing_payment_activity_button);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button nowPlaying = findViewById(R.id.payment_gateway_to_now_playing_button);
+        nowPlaying.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openNowPlayingActivity(view);
