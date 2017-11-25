@@ -11,9 +11,18 @@
     <string name="latest_songs_text">This is the latest songs activity, here we will show the list of latest songs ! :)</string>
     <string name="random_text">This is random activity, this activity will show any song randomly ! :)</string>
     <string name="now_playing_text">This is now playing activity,
-        this activity will be responsible for showing the song that is currently running ! :)</string>
-    <string name="payment_activity_text">Here Google Payment API will be used, we can find more about this API
-        <a href="https://developers.google.com/payments/setup"> here</a>
+        this activity will be responsible for showing the song that is currently running ! :)...
+    "MediaController" is the class that will be used to control options like play/pause, rewind, fast forward and a progress slidebar</string>
+
+    <string name="payment_activity_text">Here Google Payment API will be used\n
+        The Google Payment API facilitates fast and easy online purchases for users,
+        and eliminates manual entry of payment and shipping information..sounds awesome :D\n
+        Few steps:\n
+        \t Install and add a payment method to Android Pay\n
+        \t Add a payment method to Google\n
+        \t Configure the project to add dependencies\n
+        \t In AndroidManifest.xml file need to enable Google Payment API\n
+        \t by setting value to true
     </string>
     <string name="artists_label">Artists</string>
     <string name="latest_albums_label">Latest Albums</string>
@@ -22,4 +31,5 @@
     <string name="now_playing_label">Now Playing</string>
     <string name="payment_label">Payment Gateway</string>
     <string name="random_label">Random Songs</string>
+    <string name="main_activity_text">This is Home screen of MyMusicApp</string>
 </resources>

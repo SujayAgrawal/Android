@@ -70,14 +70,17 @@ public class LatestAlbumsActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ArtistsActivity.class);
         startActivity(intent);
     }
+
     public void openLatestSongsActivity(View view) {
         Intent intent = new Intent(this, LatestSongsActivity.class);
         startActivity(intent);
     }
+
     public void openPaymentActivity(View view) {
         Intent intent = new Intent(this, PaymentActivity.class);
         startActivity(intent);
     }
+
     public void openRandomActivity(View view) {
         Intent intent = new Intent(this, RandomActivity.class);
         startActivity(intent);

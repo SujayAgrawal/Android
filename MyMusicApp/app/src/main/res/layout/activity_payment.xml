@@ -10,10 +10,6 @@
         android:orientation="vertical"
         tools:context="com.sujay.play.mymusicapp.PaymentActivity">
 
-        <TextView
-            style="@style/LabelStyle"
-            android:labelFor="@id/payment_text_view"
-            android:text="@string/payment_label" />
 
         <TextView
             android:id="@+id/payment_text_view"
