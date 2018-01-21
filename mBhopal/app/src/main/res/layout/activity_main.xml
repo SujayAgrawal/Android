@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sujay.play.m_bhopal.MainActivity">
+
+    <TextView
+        android:id="@+id/lakes_text_view"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_lakes"
+        android:text="@string/category_lakes" />
+
+    <TextView
+        android:id="@+id/restaurants_text_view"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_restaurants"
+        android:text="@string/category_restaurants" />
+
+    <TextView
+        android:id="@+id/historical_sites_text_view"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_historical_sites"
+        android:text="@string/category_historical_sites" />
+
+    <TextView
+        android:id="@+id/shopping_malls_text_view"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_shopping_malls"
+        android:text="@string/category_shopping_malls" />
+
+</LinearLayout>

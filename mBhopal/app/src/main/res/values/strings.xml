@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello Bhopal</string>
+    <string name="category_lakes">Lakes</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_historical_sites">Historical Sites</string>
+    <string name="category_shopping_malls">Shopping Malls</string>
+</resources>
