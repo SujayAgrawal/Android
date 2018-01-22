@@ -4,4 +4,70 @@
     <string name="category_restaurants">Restaurants</string>
     <string name="category_historical_sites">Historical Sites</string>
     <string name="category_shopping_malls">Shopping Malls</string>
+
+    <!-- HistoricalSitesActivity strings-->
+    <string name="historical_bhimbetka">Bhimbetka rock shelters</string>
+    <string name="historical_bhimbetka_location">Bhojpur Raisen, 38Kms from hahbibganj railway stn via hbd Rd</string>
+    <string name="historical_sanchi_stupa">Sanchi Stupa</string>
+    <string name="historical_sanchi_stupa_location">Sanchi, 58 Kms from hahbibganj railway stn via Bhopal - Vidisha Hwy</string>
+    <string name="historical_tribal_museum">Madhya Pradesh Tribal Museum</string>
+    <string name="historical_tribal_museum_location">Shymala Hills Road, Near State Museum, Shymala Hills</string>
+    <string name="historical_rashtriya_manav_sangrahalaya">Rashtriya Manav Sangrahalaya</string>
+    <string name="historical_rashtriya_manav_sangrahalaya_location">Via Depo Square, Above Tribal Museum, Shymala Hills</string>
+    <string name="historical_raisen_fort">Raisen Fort</string>
+    <string name="historical_raisen_fort_location">Raisen, 43Kms from habibganj railway stn via NH146</string>
+
+    <!-- LakesActivity strings-->
+    <string name="lake_upper">Upper Lake</string>
+    <string name="lake_lower">Lower Lake</string>
+    <string name="lake_lower_upper_location">near cm house</string>
+    <string name="lake_shahpura">Shahpura Lake</string>
+    <string name="lake_shahpura_location">Shahpura</string>
+    <string name="lake_sharangpani">Sharangpani Lake</string>
+    <string name="lake_sharangpani_location">Piplani</string>
+    <string name="lake_tawa">Tawa Reservoir</string>
+    <string name="lake_tawa_location">Hoshangabad</string>
+    <string name="lake_kerwa">Kerwa Dam</string>
+    <string name="lake_kerwa_location">Kotra Sultanabad</string>
+    <string name="lake_bhadbhada">Bhadbhada Dam</string>
+    <string name="lake_bhadbhada_location">Near Kerwa Dam</string>
+
+    <!-- RestaurantsActivity strings-->
+    <string name="restaurant_sagar_gaire">Sagar Gaire</string>
+    <string name="restaurant_sagar_gaire_location">10, Number Market, Arera Colony</string>
+    <string name="restaurant_manohar_dairy">Manohar Dairy</string>
+    <string name="restaurant_manohar_dairy_location">Zone-I, Mp Nagar</string>
+    <string name="restaurant_bakenshake">Bake N Shake</string>
+    <string name="restaurant_bakenshake_location">Zone-I, Mp Nagar</string>
+    <string name="restaurant_bapukikutia">Bapu Ki Kutia</string>
+    <string name="restaurant_bapukikutia_location">Zone-I, Mp Nagar</string>
+    <string name="restaurant_windnwaves">Wind And Waves</string>
+    <string name="restaurant_windnwaves_location">Van Vihar Road, Shyamla Hills, TT Nagar</string>
+    <string name="restaurant_jehannuma">Hotel Jehan Numa Palace</string>
+    <string name="restaurant_jehannuma_location">157, Shymala Hills, TT Nagar</string>
+    <string name="restaurant_amerbakery">Amer Bakery Hut</string>
+    <string name="restaurant_amerbakery_location">New Market, Link Road, TT Nagar</string>
+    <string name="restaurant_pindbaluchi">Pind Balluchi</string>
+    <string name="restaurant_pindbaluchi_location">Third FLoor, DB City Mall, Mp Nagar</string>
+
+    <!-- ShoppingMallsActivity strings-->
+
+    <string name="shop_dbcity">DB City Mall</string>
+    <string name="shop_dbcity_location">Arera Hills, Zone-I, Mp Nagar</string>
+    <string name="shop_aashima">Aashima Mall</string>
+    <string name="shop_aashima_location">Hoshangabad Road</string>
+    <string name="shop_c21">C21 Mall</string>
+    <string name="shop_c21_location">Hoshangabad Road</string>
+    <string name="shop_peoplesmall">People\'s Mall</string>
+    <string name="shop_peoplesmall_location">Ayodhya Bypass Rd, Bhanpur</string>
+    <string name="shop_metro">Metro Plaza</string>
+    <string name="shop_metro_location">Char Imli Rd, E-5, Arera Colony</string>
+    <string name="shop_aura">Aura Mall</string>
+    <string name="shop_aura_location">Trilanga Main Road, Arera Colony, Gulmohar</string>
+    <string name="shop_platinum">Platinum Plaza</string>
+    <string name="shop_platinum_location">Mata Mandir Square, TT Nagar</string>
+    <string name="shop_vishal">Vishal Mega Mart</string>
+    <string name="shop_vishal_location">Zone-I, Mp Nagar</string>
+
+
 </resources>

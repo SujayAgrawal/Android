@@ -18,13 +18,13 @@ public class LakesActivity extends AppCompatActivity {
         setContentView(R.layout.place_list);
 
         ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("Upper Lake", "near cm house"));
-        places.add(new Place("Lower Lake", "near cm house"));
-        places.add(new Place("Shahpura Lake", "Shahpura"));
-        places.add(new Place("Sharangpani Lake", "Piplani"));
-        places.add(new Place("Tawa Reservoir", "Hoshangabad"));
-        places.add(new Place("Kerwa Dam", "Kotra Sultanabad"));
-        places.add(new Place("Bhadbhada Dam", "Near Kerwa Dam"));
+        places.add(new Place(getString(R.string.lake_upper), getString(R.string.lake_lower_upper_location)));
+        places.add(new Place(getString(R.string.lake_lower), getString(R.string.lake_lower_upper_location)));
+        places.add(new Place(getString(R.string.lake_shahpura), getString(R.string.lake_shahpura_location)));
+        places.add(new Place(getString(R.string.lake_sharangpani), getString(R.string.lake_sharangpani_location)));
+        places.add(new Place(getString(R.string.lake_tawa), getString(R.string.lake_tawa_location)));
+        places.add(new Place(getString(R.string.lake_kerwa), getString(R.string.lake_kerwa_location)));
+        places.add(new Place(getString(R.string.lake_bhadbhada), getString(R.string.lake_bhadbhada_location)));
 
         PlacesAdapter placesAdapter = new PlacesAdapter(this, places);
         ListView listView = findViewById(R.id.place_list_id);

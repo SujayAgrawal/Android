@@ -9,15 +9,15 @@
     <!-- Background color for app -->
     <color name="tan_background">#FFF7DA</color>
 
-    <!-- Background color for the numbers category -->
+    <!-- Background color for the lakes category -->
     <color name="category_lakes">#FD8E09</color>
 
-    <!-- Background color for the family members category -->
+    <!-- Background color for the family restaurants category -->
     <color name="category_restaurants">#379237</color>
 
-    <!-- Background color for the colors category -->
+    <!-- Background color for the historicalSites category -->
     <color name="category_historical_sites">#8800A0</color>
 
-    <!-- Background color for the phrases category -->
+    <!-- Background color for the ShoppingMalls category -->
     <color name="category_shopping_malls">#16AFCA</color>
 </resources>

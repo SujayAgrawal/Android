@@ -17,14 +17,14 @@ public class RestaurantsActivity extends AppCompatActivity {
         setContentView(R.layout.place_list);
 
         ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("Sagar Gaire", "10, Number Market, Arera Colony"));
-        places.add(new Place("Manohar Dairy", "Zone-I, Mp Nagar"));
-        places.add(new Place("Bake N Shake", "Zone-I, Mp Nagar"));
-        places.add(new Place("Bapu Ki Kutia", "Zone-I, Mp Nagar"));
-        places.add(new Place("Wind And Waves", "Van Vihar Road, Shyamla Hills, TT Nagar"));
-        places.add(new Place("Hotel Jehan Numa Palace", "157, Shymala Hills, TT Nagar"));
-        places.add(new Place("Amer Bakery Hut", "New Market, Link Road, TT Nagar"));
-        places.add(new Place("Pind Balluchi", "Third FLoor, DB City Mall, Maharana Pratap Nagar"));
+        places.add(new Place(getString(R.string.restaurant_sagar_gaire), getString(R.string.restaurant_sagar_gaire_location)));
+        places.add(new Place(getString(R.string.restaurant_manohar_dairy), getString(R.string.restaurant_manohar_dairy_location)));
+        places.add(new Place(getString(R.string.restaurant_bakenshake), getString(R.string.restaurant_bakenshake_location)));
+        places.add(new Place(getString(R.string.restaurant_bapukikutia), getString(R.string.restaurant_bapukikutia_location)));
+        places.add(new Place(getString(R.string.restaurant_windnwaves), getString(R.string.restaurant_windnwaves_location)));
+        places.add(new Place(getString(R.string.restaurant_jehannuma), getString(R.string.restaurant_jehannuma_location)));
+        places.add(new Place(getString(R.string.restaurant_amerbakery), getString(R.string.restaurant_amerbakery_location)));
+        places.add(new Place(getString(R.string.restaurant_pindbaluchi), getString(R.string.restaurant_pindbaluchi_location)));
 
         PlacesAdapter placesAdapter = new PlacesAdapter(this, places);
         ListView listView = findViewById(R.id.place_list_id);

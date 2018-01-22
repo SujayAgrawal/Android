@@ -16,14 +16,14 @@ public class ShoppingMallsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.place_list);
         ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("DB City Mall", "Arera Hills, Zone-I, Mp Nagar"));
-        places.add(new Place("Aashima Mall", "Hoshangabad Road"));
-        places.add(new Place("C21 Mall", "Hoshangabad Road"));
-        places.add(new Place("People's Mall", "Ayodhya Bypass Rd, Bhanpur"));
-        places.add(new Place("Metro Plaza", "Char Imli Rd, E-5, Arera Colony"));
-        places.add(new Place("Aura Mall", "Trilanga Main Road, Arera Colony, Gulmohar"));
-        places.add(new Place("Platinum Plaza", "Mata Mandir Square, TT Nagar"));
-        places.add(new Place("Vishal Mega Mart", "Zone-I, Mp Nagar"));
+        places.add(new Place(getString(R.string.shop_dbcity), getString(R.string.shop_dbcity_location)));
+        places.add(new Place(getString(R.string.shop_aashima), getString(R.string.shop_aashima_location)));
+        places.add(new Place(getString(R.string.shop_c21), getString(R.string.shop_c21_location)));
+        places.add(new Place(getString(R.string.shop_peoplesmall), getString(R.string.shop_peoplesmall_location)));
+        places.add(new Place(getString(R.string.shop_metro), getString(R.string.shop_metro_location)));
+        places.add(new Place(getString(R.string.shop_aura), getString(R.string.shop_aura_location)));
+        places.add(new Place(getString(R.string.shop_platinum), getString(R.string.shop_platinum_location)));
+        places.add(new Place(getString(R.string.shop_vishal), getString(R.string.shop_vishal_location)));
 
         PlacesAdapter placesAdapter = new PlacesAdapter(this, places);
         ListView listView = findViewById(R.id.place_list_id);
